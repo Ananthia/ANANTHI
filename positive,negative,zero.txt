@@ -5,10 +5,10 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &n);
     if (n<0)
-        printf("You entered a negative number.");
+        printf("negative");
     else if (n>0)
-        printf("You entered a positive number.");
+        printf("positive");
     else
-        printf("You entered 0.");
+        printf("zero");
     return 0;
 }
